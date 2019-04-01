@@ -1,0 +1,60 @@
+@0
+
+
+@1
+#IN
+MOV UP DOWN
+
+@2
+#0
+
+@3
+# SECOND
+
+
+
+
+
+
+
+
+
+
+
+
+
+MOV ACC DOWN
+
+@4
+#2
+MOV UP ACC
+
+
+
+
+
+
+
+
+
+
+
+
+MOV ACC LEFT
+
+@5
+#2
+
+@6
+
+
+@7
+# THIRD
+
+@8
+#1
+
+@9
+#OUT
+
+@10

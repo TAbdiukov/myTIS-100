@@ -1,0 +1,6 @@
+pyperclip==1.7.0
+keyboard=0.13.3
+mouse==0.7.0
+pyahk==0.3.0
+PyAutoGUI==0.9.42
+etaprogress==1.1.1

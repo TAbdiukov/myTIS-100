@@ -37,7 +37,7 @@ SWP
 
 
 @5
-MOV UP ACC
+MOV UP DOWN
 
 @6
 

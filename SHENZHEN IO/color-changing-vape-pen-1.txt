@@ -1,0 +1,64 @@
+[name] New design 2
+[puzzle] Sz010
+
+[traces] 
+......................
+......................
+......................
+......................
+......................
+......................
+......15555555C.......
+....1554.15C..34......
+......14.1435554......
+.....154.1555554......
+.........14...........
+......................
+......................
+......................
+
+[chip] 
+[type] UC4
+[x] 7
+[y] 3
+[code] 
+  slx x1
+  mov x1 p1
+
+[chip] 
+[type] BRIDGE
+[x] 10
+[y] 3
+
+[chip] 
+[type] LEDRGBV
+[x] 15
+[y] 4
+[is-puzzle-provided] true
+
+[chip] 
+[type] RADIO
+[x] 2
+[y] 5
+[is-puzzle-provided] true
+
+[chip] 
+[type] BRIDGE
+[x] 6
+[y] 5
+
+[chip] 
+[type] UC4
+[x] 7
+[y] 5
+[code] 
+  tgt x0 -1
+- tgt acc 0
++ mov x0 p0 #R
++ slp 1
++ mov x0 p1 #G
++ slp 1
++ mov x0 x1 #B
++ slp 1
++ mov x0 acc
+

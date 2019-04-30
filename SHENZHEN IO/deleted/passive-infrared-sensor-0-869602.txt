@@ -1,0 +1,62 @@
+[name] New design 1
+[puzzle] Sz005
+
+[traces] 
+......................
+......................
+......................
+......................
+......................
+....154.155555555C....
+........1C.......A....
+.........A.......A....
+....14...2.......A....
+....154.154......2....
+.....14.14............
+......................
+......................
+......................
+
+[chip] 
+[type] BRIDGE
+[x] 5
+[y] 3
+
+[chip] 
+[type] UC4
+[x] 6
+[y] 3
+[code] 
+
+
+[chip] 
+[type] BRIDGE
+[x] 9
+[y] 3
+
+[chip] 
+[type] DIAL1
+[x] 3
+[y] 4
+[is-puzzle-provided] true
+
+[chip] 
+[type] RTC
+[x] 10
+[y] 4
+[rotated] true
+[is-puzzle-provided] true
+
+[chip] 
+[type] UC4
+[x] 6
+[y] 7
+[code] 
+  
+
+[chip] 
+[type] DIAL2
+[x] 3
+[y] 8
+[is-puzzle-provided] true
+

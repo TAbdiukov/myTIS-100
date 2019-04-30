@@ -8,12 +8,12 @@
 ......................
 ......................
 ......................
-......15555C..........
-......154.16..........
-....155C..155C........
-......834....2...8....
-.....16954.1555556....
-.....15614.154........
+......................
+......................
+......................
+......................
+.....14...............
+.....154..............
 ......................
 ......................
 
@@ -24,34 +24,6 @@
 [is-puzzle-provided] true
 
 [chip] 
-[type] BRIDGE
-[x] 8
-[y] 2
-
-[chip] 
-[type] UC4
-[x] 9
-[y] 2
-[code] 
-
-
-[chip] 
-[type] BRIDGE
-[x] 13
-[y] 2
-
-[chip] 
-[type] NOTE
-[x] 15
-[y] 2
-[code] 
-DOWN
-p0: sensor IN
-p1: alarm OUT
-x0: off-time IN
-x1: passthrough
-
-[chip] 
 [type] DIAL1
 [x] 4
 [y] 3
@@ -60,17 +32,19 @@ x1: passthrough
 [chip] 
 [type] BRIDGE
 [x] 6
+[y] 3
+
+[chip] 
+[type] BRIDGE
+[x] 7
 [y] 4
 
 [chip] 
-[type] UC4
+[type] UC6
 [x] 8
 [y] 5
 [code] 
-  mov p1 acc
-  teq p1 x0
-+ mov -900 x1
-- mov acc x1
+  
 
 [chip] 
 [type] RTC
@@ -80,12 +54,14 @@ x1: passthrough
 
 [chip] 
 [type] NOTE
-[x] 15
+[x] 13
 [y] 7
 [code] 
-UP
-#p0: sensor IN
-p1: time IN
-x0: on-time IN
-x1: data PASS
+
+
+
+
+
+
+2 TIME
 

@@ -1,0 +1,68 @@
+[name] New design 1
+[puzzle] Sz010
+
+[traces] 
+......................
+......................
+......................
+......................
+......................
+......................
+......................
+.....954.1555554......
+....16...14.1554......
+.........1555554......
+......94.14.8.........
+......3555556.........
+......................
+......................
+
+[chip] 
+[type] UC4
+[x] 7
+[y] 3
+[code] 
+  slx x1
+#WAKE UP! Its G
+  mov x1 p0
+  slp 1 #snooze4G
+  mov x1 p1 #B
+  slp 3 #B+3=>R+1
+
+[chip] 
+[type] BRIDGE
+[x] 10
+[y] 3
+
+[chip] 
+[type] BRIDGE
+[x] 12
+[y] 3
+
+[chip] 
+[type] RADIO
+[x] 2
+[y] 4
+[is-puzzle-provided] true
+
+[chip] 
+[type] LEDRGBV
+[x] 15
+[y] 4
+[is-puzzle-provided] true
+
+[chip] 
+[type] UC4
+[x] 7
+[y] 5
+[code] 
+  tgt x0 -1
++ mov x0 p1 #R
++ slp 1 #Snooze4G
++ mov x0 x1 #->G
++ slp 1 #snooze4B
++ mov x0 x1 #->B
+#min slp: B+2=>R
++ slp 2
+- slp 1
+

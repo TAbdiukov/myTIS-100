@@ -1,0 +1,80 @@
+[name] New design 1
+[puzzle] Sz048
+
+[traces] 
+......................
+......................
+......................
+......................
+......................
+......................
+.........9415C........
+..154....34.16...154..
+..154155554.15554154..
+..154............15C..
+...................2..
+......................
+......................
+......................
+
+[chip] 
+[type] DX3
+[x] 4
+[y] 4
+[rotated] true
+
+[chip] 
+[type] DX3
+[x] 16
+[y] 4
+
+[chip] 
+[type] UC4X
+[x] 10
+[y] 5
+[code] 
+  mov x2 acc
+  tgt acc x2
+  
+
+[chip] 
+[type] NOTE
+[x] 2
+[y] 7
+[code] 
+Ports stats
+LHS: p=3
+Ammo: x=1 (2)
+RHS: p=3
+
+[chip] 
+[type] DIAL7
+[x] 10
+[y] 7
+[is-puzzle-provided] true
+
+[chip] 
+[type] NOTE
+[x] 14
+[y] 7
+[code] 
+AMMO
+-: READ
++: READ
+
+MAIN
+x0: Ammo-
+x1: LHS
+x2: RHS
+x3: (unused)/Ammo+
+
+[chip] 
+[type] NOTE
+[x] 17
+[y] 7
+[code] 
+OUTPUTS:
+Alive
+Fire
+
+
